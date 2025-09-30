@@ -12,6 +12,11 @@ function Home() {
         {id:5, emri:'Andi', mosha:21},
       ])
 
+        const deleteButton = (id) => {
+            const newList = list.filter( item => item.id !== id);
+            setList(newList);
+        }
+
   return (
     <>
         <h1>Home Page</h1>
@@ -22,7 +27,7 @@ function Home() {
             <p>Mosha: {item.mosha}</p>
           </div>
         )) } */}
-        <BlogList  list={list} title="Lista Kryesore"/>
+        <BlogList  list={list} title="Lista Kryesore" deleteButton={deleteButton}/>
 
     </>
   )
