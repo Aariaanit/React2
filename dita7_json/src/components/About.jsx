@@ -1,11 +1,10 @@
 import React from 'react'
-import BlogList from './BlogList'
 
 function About() {
   return (
     <>
         <h1>About Page</h1>
-         <BlogList  list={list} title="Lista Kryesore" deleteButton={deleteButton}/>
+       
     </>
   )
 }

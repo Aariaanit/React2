@@ -14,6 +14,7 @@ function BlogList(props) {
                 <th>Id</th>
                 <th>Emri</th>
                 <th>Mosha</th>
+                <th>Foto</th>
                 <th>Veprimet</th>
             </tr>
         { list.map( (item) => (
@@ -21,6 +22,7 @@ function BlogList(props) {
                 <td>{item.id}</td>
                 <td>{item.emri}</td>
                 <td>{item.mosha}</td>
+                <td><img src={item.foto} alt="" style={{width:90,height:80}}/></td>
                 <td>
                    <button onClick={() => props.deleteButton(item.id)}>Delete</button>
                    <button>Edit</button>

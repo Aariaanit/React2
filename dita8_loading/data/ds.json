@@ -1,0 +1,34 @@
+{
+    "list":[
+        {
+            "id":1, 
+            "emri":"Arianit", 
+            "mosha":31
+        },
+        {
+            "id":2, 
+            "emri":"Blerim", 
+            "mosha":29
+        },
+        {
+            "id":3, 
+            "emri":"Dardan", 
+            "mosha":25
+        }, 
+        {
+            "id":4, 
+            "emri":"Erblin", 
+            "mosha":28
+        },
+        {
+            "id":5, 
+            "emri":"Fatmir", 
+            "mosha":30
+        },
+        {
+            "id":6, 
+            "emri":"Genc", 
+            "mosha":27
+        }  
+    ]
+}
